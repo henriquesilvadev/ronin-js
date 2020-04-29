@@ -3,7 +3,7 @@ const globalStyle = `
     box-sizing: border-box;
   }
   body {
-    background: #fbfbfb;
+    background: #f6f6f6;
     color: rgba(0,0,0,.87);
   }
 
