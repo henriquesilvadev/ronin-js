@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     {
-      resolve: `@hangindev/gatsby-theme-courses`,
+      resolve: `@hsdev/gatsby-theme-courses`,
       options: {
         contentPath: 'content/courses',
       },
