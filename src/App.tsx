@@ -19,10 +19,6 @@ import svg_icon_2 from './img/svg_icon/2.svg';
 import svg_icon_3 from './img/svg_icon/3.svg';
 import henrique_foto from './img/team/yo.png';
 import maria_foto from './img/team/my_cat.png';
-import js_logo from './img/testmonial/js.jpg';
-import node_logo from './img/testmonial/node.jpg';
-import graphql_logo from './img/testmonial/graphql.jpg';
-// import Header from './components/header'
 
 function App() {
   return (
@@ -36,6 +32,7 @@ function App() {
                             <div className="logo-img">
                                 <a href="#">
                                     <img src={ logo } alt=""/>
+                                    <h3 style={{ color: '#FFF'}}>Code School</h3>
                                 </a>
                             </div>
                         </div>
@@ -160,7 +157,7 @@ function App() {
                             <div className="video_watch d-flex align-items-center">
                               <div className="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                                 <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> "Todos nesse país deveriam aprender como programar..." </span>
-                                <a href="https://youtu.be/vD3vCmRbclI" className="video_icon popup-video boxed-btn3"> <i className="fa fa-play"></i> </a>
+                                <a href="https://www.youtube.com/watch?v=Z6diqnoDl1Q" className="video_icon popup-video boxed-btn3"> <i className="fa fa-play"></i> </a>
                               </div>
                             </div>
                         </div>
@@ -285,7 +282,7 @@ function App() {
                     <div className="section_title text-center mb-90" style={{ marginTop: '20px' }}>
                         <h3 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style={{ color: '#FFF' }}>Nosso Time</h3>
                         <p className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style={{ color: '#FFF' }}>“Indivíduos e interações mais que processos e ferramentas”.</p>
-                        <small>– <a href="https://agilemanifesto.org/" target="_blank" style={{ color: '#FFF' }}>Manifesto Ágil</a> -</small>
+                        <small>– <a href="https://agilemanifesto.org/" target="_blank"  rel="noopener noreferrer" style={{ color: '#FFF' }}>Manifesto Ágil</a> -</small>
                     </div>
                 </div>
             </div>
@@ -297,10 +294,10 @@ function App() {
                             <div className="team_hover">
                                 <div className="hover_inner text-center">
                                     <ul>
-                                        <li><a href="https://www.linkedin.com/company/henriquesilvadev" target="_blank"> <i className="fa fa-linkedin"></i> </a></li>
-                                        <li><a href="https://twitter.com/dev_henrique" target="_blank"> <i className="fa fa-twitter"></i> </a></li>
-                                        <li><a href="https://www.instagram.com/henriquesilva_dev/" target="_blank"> <i className="fa fa-instagram"></i> </a></li>
-                                        <li><a href="https://github.com/henriquesilvadev" target="_blank"> <i className="fa fa-github"></i> </a></li>
+                                        <li><a href="https://www.linkedin.com/company/henriquesilvadev" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="https://twitter.com/dev_henrique" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-twitter"></i> </a></li>
+                                        <li><a href="https://www.instagram.com/henriquesilva_dev/" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-instagram"></i> </a></li>
+                                        <li><a href="https://github.com/henriquesilvadev" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-github"></i> </a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -378,8 +375,10 @@ function App() {
       <div className="testimonial_area ">
         <div className="container">
           <div className="row">
-            {/* <div className="col-xl-12">
-              <div className="testmonial_active owl-carousel">
+            <div className="col-xl-12">
+               <img src="./img/testmonial/banner2.jpg" />
+            </div>
+            {/*  <div className="testmonial_active owl-carousel">
                 <div className="single_carousel">
                   <div className="single_testmonial text-center">
                     <div className="quote">
