@@ -77,7 +77,7 @@ function App() {
                     <div className="col-lg-10 col-md-10">
                         <div className="slider_text">
                             <h3 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
-                              Consultoria de Software, resolvemos problemas complexos com o uso de tecnologia.
+                              Transformamos curiosidade em descoberta, mudando o que sabemos sobre o mundo.
                             </h3>
                             <a className="boxed-btn3 wow fadeInLeft"  data-wow-duration="1s" data-wow-delay=".2s" href="portfolio.html">Apresentação</a>
                         </div>
@@ -373,11 +373,8 @@ function App() {
       </div>
 
       <div className="testimonial_area ">
-        <div className="container">
+        <div className="container-fluid">
           <div className="row">
-            <div className="col-xl-12">
-               <img src="./img/testmonial/banner2.jpg" />
-            </div>
             {/*  <div className="testmonial_active owl-carousel">
                 <div className="single_carousel">
                   <div className="single_testmonial text-center">
