@@ -12,11 +12,10 @@ import './css/slick.css';
 import './css/slicknav.css';
 import './css/style.css';
 
-
 import logo from './img/logo.png';
-import svg_icon_1 from './img/svg_icon/1.svg';
-import svg_icon_2 from './img/svg_icon/2.svg';
-import svg_icon_3 from './img/svg_icon/3.svg';
+import plan_icon_1 from './img/plan/plan-1.png';
+import plan_icon_2 from './img/plan/plan-2.jpg';
+import plan_icon_3 from './img/plan/plan-3.jpg';
 import henrique_foto from './img/team/yo.png';
 import maria_foto from './img/team/my_cat.png';
 
@@ -30,7 +29,7 @@ function App() {
                     <div className="row align-items-center no-gutters">
                         <div className="col-xl-2 col-lg-2">
                             <div className="logo-img">
-                                <a href="#">
+                                <a href="/">
                                     <img src={ logo } alt=""/>
                                     <h3 style={{ color: '#FFF'}}>Code School</h3>
                                 </a>
@@ -41,7 +40,7 @@ function App() {
                                 <nav>
                                     <ul id="navigation">
                                         <li><a className="active" href="index.html">Principal</a></li>
-                                        <li><a href="#services">Nossos Serviços</a></li>
+                                        <li><a href="#services">Planos</a></li>
                                         {/* <li><a href="Portfolio.html">Portfolio</a></li> */}
                                         <li><a href="#">Conheça-nos <i className="ti-angle-down"></i></a>
                                             <ul className="submenu">
@@ -86,18 +85,22 @@ function App() {
             </div>
         </div>
     </div>
+    <div className="testimonial_area wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".1s">
+        <div className="container-fluid">
+          <div className="row">
+          </div>
+        </div>
+      </div>
 
     <div className="service_area" id="services">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-6">
                     <div className="section_title text-center mb-70">
-                        <h4 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" >Nossos Serviços</h4>
-                        <blockquote style={{ fontSize: '20px' }} className="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
-                        Estamos descobrindo maneiras melhores de desenvolver
-                        software, fazendo-o nós mesmos e ajudando outros a
-                        fazerem o mesmo.</blockquote>
-                        <small><a href="https://agilemanifesto.org/">Manifesto para Desenvolvimento Ágil de Software</a></small>
+                        <h3 className="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" >Planos de Assinatura Anuais</h3>
+                        <blockquote style={{ fontSize: '20px', textAlign: 'left' }} className="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".2s">
+                          Aprenda React, Node, TypeScript e GraphQL, construa aplicativos prontos para produção neste curso on-line, com ritmo individual.
+                        </blockquote>
                     </div>
                 </div>
             </div>
@@ -105,38 +108,52 @@ function App() {
                 <div className="col-xl-4 col-md-4">
                     <div className="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
                         <div className="icon">
-                            <img src={ svg_icon_1 } alt="" />
+                            <img src={ plan_icon_1 } alt="" />
                         </div>
-                        <h3>Consultoria em Arquitetura</h3>
-                        <p>Projetos multidisciplinares, coordenação e compatibilização de projetos de software,
-                          de desenvolvimento e infraestrutura. Recursos alinhados às projeções de investimentos e
-                          custos operacionais, assim como a complexidade técnica de cada etapa. Verificações e
-                          análises de valor ao longo de todo o ciclo de vida dos projetos.</p>
+                        <h3>Hakushi Plan</h3>
+
+                        <p>
+                          Tenha acesso completo à <b>Formação Full-Stack JavaScript Application</b>.
+                          Conheça o contexto da criação de uma API GraphQL com o Node & Apollo Server, use o TypeScript para
+                          escrever código estaticamente tipados, persista os dados com o MongoDB, lide com as mudanças na
+                          interface com React UI com Hooks tradicionais e personalizados e utilize a biblioteca do Apollo
+                          Client para fazer solicitações GraphQL.
+                        </p>
+                        <br />
+                        <a href="./sale-1.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-4">
                     <div className="single_service text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                         <div className="icon">
-                            <img src={ svg_icon_2 } alt="" />
+                            <img src={ plan_icon_2 } alt="" />
                         </div>
-                        <h3>Desenvolvimento de Software Ágil</h3>
-                        <p>O acompanhamento propõe uma discussão sobre as tecnologias abordando
-                          o uso dos ferramentas como meio para solução de questões poéticas.
-                          Partindo da análise comparativa de obras de software e de paralelos entre
-                          produção e acompanhamento tem como objetivo apresentar o universo de
-                          dominio da solução ampliando suas possibilidades no mundo atual.</p>
+                        <h3>Ninja Plan</h3>
+
+                        <p>
+                          Além de acesso completo à <b>Formação Full-Stack JavaScript Application</b>.
+                          Obtenha contexto no roteamento do lado do cliente com o React Router, autenticação com o Google Sign In (e OAuth 2.0),
+                          pagamentos com o Stripe, pesquisa em geolocalização com a API Geocode do Google,
+                          armazenamento de imagens no Cloudinary e deploy no Heroku.​<br /><br />
+                        </p>
+                        <br />
+                        <a href="./sale-2.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-4">
                     <div className="single_service text-center wow fadeInRight" data-wow-duration="1.2s" data-wow-delay=".4s">
                         <div className="icon">
-                            <img src={ svg_icon_3 } alt="" />
+                            <img src={ plan_icon_3 } alt="" />
                         </div>
-                        <h3>Consultoria em Gestão de Backlog</h3>
-                        <p>O ritmo da mudança está aumentando.
-                          O Scrum é projetado para tornar a inovação a norma,
-                          não a exceção. Aumentando a produtividade para que você
-                          possa colocar sua criação no mercado mais rapidamente.</p>
+                        <h3>Ronin Plan</h3>
+
+                        <p>
+                          Tenha acesso completo à <b>Formação Full-Stack JavaScript Application</b> e Cursos Extras para sua equipe,
+                          com descontos em massa aplicados a equipes de até 10 alunos.
+                          Tendo acesso total as Formação e Cursos Extras. ​
+                        </p>
+                        <br /><br /><br /><br /><br /><br /><br />
+                        <a href="./sale-3.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
                     </div>
                 </div>
             </div>
@@ -259,13 +276,22 @@ function App() {
                     <div className="work_info">
                         <div className="section_title">
                             <h3 className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Como nós trabalhamos</h3>
-                            <p className="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">“Trabalhamos com empresas em todas as etapas do processo – da
-                            identificação e validação até a efetiva resolução do problema. Temos todos as ferramentas e conhecimentos necessários para co-criar a
-                            melhor solução com você, seja ela para uso interno no seu negócio ou para ganhar o mercado.</p>
+                            <p className="mid_text wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">
+                              Projetamos e executamos programas que oferecem a todos os alunos uma rica experiência educacional,
+                              apoiando sua aprendizagem acadêmica, social e emocional, para que desenvolvam as habilidades necessárias
+                              para ter sucesso em um ambiente em constante mudança.
+                              Garantimos que todos os alunos tenham acesso a serviços e apoios de alta qualidade,
+                              permitindo que estabeleçam e alcancem metas altas de aprendizado.
+                              Sabemos que equidade não significa igualdade, reconhecemos que alguns alunos precisam de recursos adicionais
+                              para ter a mesma oportunidade de sucesso que outros.
+                              Procuramos garantir que as necessidades de todas as populações de estudantes sejam atendidas,
+                              incluindo estudantes com deficiência, população preta, minorias religiosas, estudantes LGBTQI+ e outros.
+                              Reconhecemos que esses alunos são ativos e a diversidade é uma força.
+                            </p>
                         </div>
+                         <h4>Com a palavra o CEO</h4>
                         <div className="video_watch d-flex align-items-center">
                           <div className="play_btn wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                            <span className="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".7s"> Vamos conversar! </span>
                             <a href="https://www.youtube.com/watch?v=D7tF-cY2M9o" className="video_icon popup-video"> <i className="fa fa-play"></i> </a>
                           </div>
                         </div>
@@ -372,67 +398,6 @@ function App() {
         </div>
       </div>
 
-      <div className="testimonial_area ">
-        <div className="container-fluid">
-          <div className="row">
-            {/*  <div className="testmonial_active owl-carousel">
-                <div className="single_carousel">
-                  <div className="single_testmonial text-center">
-                    <div className="quote">
-                      <img src={ js_logo } alt="" />
-                    </div>
-                    <p>Como o JavaScript é uma ótima linguagem para iniciantes em codificação, reunimos alguns dos
-                      melhores recursos de aprendizado e criamos um curso sobre JavaScript para ajudar os novos
-                      desenvolvedores a começar a trabalhar.
-                    </p>
-                    <div className="testmonial_author">
-                      <div className="thumb">
-                        <img src={ js_logo } alt="" />
-                      </div>
-                      <h3>Robert Thomson</h3>
-                      <span>Business Owner</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="single_carousel">
-                  <div className="single_testmonial text-center">
-                    <div className="quote">
-                      <img src={ node_logo } alt="" />
-                    </div>
-                    <p>Node.js é um interpretador de JavaScript assíncrono com código aberto orientado a eventos,
-                      criado por Ryan Dahl em 2009, focado em migrar a programação do Javascript do cliente para os servidores. </p>
-                    <div className="testmonial_author">
-                      <div className="thumb">
-                        <img src="img/testmonial/thumb.png" alt="" />
-                      </div>
-                      <h3>Robert Thomson</h3>
-                      <span>Business Owner</span>
-                    </div>
-                  </div>
-                </div>
-                <div className="single_carousel">
-                  <div className="single_testmonial text-center">
-                    <div className="quote">
-                      <img src={ graphql_logo } alt="" />
-                    </div>
-                    <p>Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor <br />
-                          sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.  <br />
-                          Fusce ac mattis nulla. Morbi eget ornare dui. </p>
-                    <div className="testmonial_author">
-                      <div className="thumb">
-                        <img src="img/testmonial/thumb.png" alt="" />
-                      </div>
-                      <h3>Robert Thomson</h3>
-                      <span>Business Owner</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </div>
-        </div>
-      </div>
-
       <div data-scroll-index="0" className="get_in_tauch_area" id="contact">
         <div className="container">
           <div className="row justify-content-center">
@@ -498,7 +463,7 @@ function App() {
                 <div className="menu_links">
                   <ul>
                     <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".8s" href="#work">Como Trabalhamos</a></li>
-                    <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#services">Nossos Serviços</a></li>
+                    <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#services">Nossos Planos</a></li>
                     {/* <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="#">Portfolio</a></li> */}
                     {/* <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1s" href="#">Blog</a></li> */}
                     <li><a className="wow fadeInDown" data-wow-duration="1s" data-wow-delay="1.1s" href="#team">Nosso Time</a></li>
@@ -524,9 +489,11 @@ function App() {
             <div className="footer_border"></div>
             <div className="row">
               <div className="col-xl-12">
-                <p className="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+              <p className="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
 
-                </p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os Direitos Reservados | Desenvolvido com muito <i className="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://henriquesilva.dev" target="_blank">HENRIQUE SILVA DEV</a>
+
+                  </p>
               </div>
             </div>
           </div>

@@ -1,0 +1,144 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Ronin JS Code School</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+
+    <!-- portfolio_details_banner_start  -->
+        <div class="container">
+            <div class="row justify-content-center">
+
+                    <div class="details_info ">
+                      <div className="col-xl-4 col-md-4">
+                        <div className="single_service text-center wow fadeInLeft" data-wow-duration="1.2s" data-wow-delay=".4s">
+                            <div className="icon">
+                                <img src="img/plan/plan-1.png" alt="" />
+                            </div>
+                        </div>
+
+                        <div id="paypal-button-container"></div>
+                        <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=BRL" data-sdk-integration-source="button-factory"></script>
+                        <script>
+                          paypal.Buttons({
+                              style: {
+                                  shape: 'pill',
+                                  color: 'black',
+                                  layout: 'vertical',
+                                  label: 'paypal',
+
+                              },
+                              createOrder: function(data, actions) {
+                                  return actions.order.create({
+                                      purchase_units: [{
+                                          amount: {
+                                              value: '960'
+                                          }
+                                      }]
+                                  });
+                              },
+                              onApprove: function(data, actions) {
+                                  return actions.order.capture().then(function(details) {
+                                      alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                                  });
+                              }
+                          }).render('#paypal-button-container');
+                      </script>
+                    </div>
+                  </div>
+                </div>
+                <section>
+<h1>Hakushi Plan</h1>
+<h4>
+  Acesso á <b>consultoria</b>, <b>eventos</b>, <b>vídeos</b>, <b>e-books</b> e <b>links</b> para você complementar sua experiência e aprendizado.​<br /><br />
+</h4>
+Capacitar indivíduos
+
+Esse é nosso DNA, compartilhar nosso trabalho bem como criar conteúdo exclusivo, original, relevante e de qualidade para toda a comunidade. Por meio de cursos, eventos, artigos, notícias e vídeos, buscamos unir todos em propósitos em comum, tendo a justiça social e diversidade humana como principais objetos de foco em todas as iniciativas.
+
+“O que fizeram comigo me criou, é um principio básico do universo, que toda ação cria uma reação igual e oposta!". - V de Vingança -<br />
+<b>"Todos nesse país deveriam aprender como programar..."</b>
+</section>
+
+    </div>
+
+ <!-- footer start -->
+ <footer class="footer" style="margin-top: 50px;">
+  <div class="footer_top">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-2 col-md-3">
+                  <div class="footer_logo wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                      <a href="index.html">
+                          <img src="img/logo.png" alt="">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-xl-7 col-lg-7 col-md-9">
+                  <div class="menu_links">
+                      <ul>
+                          <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s" href="#">Contrato</a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s"></li>
+                          <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s" href="#">Garantias</a></li>
+                          <li><a class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".6s" href="https://idec.org.br/consultas/codigo-de-defesa-do-consumidor/capitulo-vi" target="_blank">Código de Defesa do Consumidor</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-12">
+                  <div class="socail_links">
+                      <ul>
+                          <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" href="#"> <i class="fa fa-facebook"></i> </a></li>
+                          <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" href="#"> <i class="fa fa-twitter"></i> </a></li>
+                          <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" href="#"> <i class="fa fa-instagram"></i> </a></li>
+                          <li><a class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" href="#"> <i class="fa fa-google-plus"></i> </a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="copy-right_text">
+      <div class="container">
+          <div class="footer_border"></div>
+          <div class="row">
+              <div class="col-xl-12">
+                  <p class="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os Direitos Reservados | Desenvolvido com muito <i class="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://henriquesilva.dev" target="_blank">HENRIQUE SILVA DEV</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+<!--/ footer end  -->
+
+
+  </body>
+
+</html>
