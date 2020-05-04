@@ -19,6 +19,7 @@ import plan_icon_3 from './img/plan/plan-3.jpg';
 import henrique_foto from './img/team/yo.png';
 import maria_foto from './img/team/my_cat.png';
 
+
 function App() {
   return (
     <section>
@@ -56,7 +57,7 @@ function App() {
                             </div>
                         </div>
                         <div className="col-lg-2 d-none d-lg-block">
-                            <div className="log_chat_area d-flex align-items-end">
+                            <div className="log_chat_area d-flex align-items-end">        />
                                 <a href="#" data-scroll-nav="0" className="say_hi">Cursos On-Line</a>
                             </div>
                         </div>
@@ -120,7 +121,7 @@ function App() {
                           Client para fazer solicitações GraphQL.
                         </p>
                         <br />
-                        <a href="./sale-1.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
+                        {/* <a href="./sale-1.html" target="_blank" rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a> */}
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-4">
@@ -137,7 +138,7 @@ function App() {
                           armazenamento de imagens no Cloudinary e deploy no Heroku.​<br /><br />
                         </p>
                         <br />
-                        <a href="./sale-2.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
+                        {/* <a href="./sale-2.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a> */}
                     </div>
                 </div>
                 <div className="col-xl-4 col-md-4">
@@ -153,7 +154,7 @@ function App() {
                           Tendo acesso total as Formação e Cursos Extras. ​
                         </p>
                         <br /><br /><br /><br /><br /><br /><br />
-                        <a href="./sale-3.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a>
+                        {/* <a href="./sale-3.html" target="_blank"  rel="noopener noreferrer" className="boxed-btn3">Assinar Plano</a> */}
                     </div>
                 </div>
             </div>
