@@ -1,4 +1,4 @@
 [build]
   base = ""
-  command = "npm run build && cp favicons/* build/ && cp -rf public/sele-* public/css public/js build/"
+  command = "npm run build && cp favicons/* build/ && cp -rf public/sale-* public/css public/js build/"
   publish = "build/"
