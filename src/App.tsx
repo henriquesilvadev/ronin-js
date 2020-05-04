@@ -320,9 +320,9 @@ function App() {
                             <div className="team_hover">
                                 <div className="hover_inner text-center">
                                     <ul>
-                                        <li><a href="https://www.linkedin.com/company/henriquesilvadev" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-linkedin"></i> </a></li>
+                                        <li><a href="https://www.linkedin.com/in/hhdasilva" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-linkedin"></i> </a></li>
                                         <li><a href="https://twitter.com/dev_henrique" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-twitter"></i> </a></li>
-                                        <li><a href="https://www.instagram.com/henriquesilva_dev/" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-instagram"></i> </a></li>
+                                        <li><a href="https://www.instagram.com/hhdasilva" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-instagram"></i> </a></li>
                                         <li><a href="https://github.com/henriquesilvadev" target="_blank"  rel="noopener noreferrer"> <i className="fa fa-github"></i> </a></li>
                                     </ul>
                                 </div>
