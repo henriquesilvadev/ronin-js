@@ -11,6 +11,7 @@ import './css/animate.min.css';
 import './css/slick.css';
 import './css/slicknav.css';
 import './css/style.css';
+import './css/header.css';
 
 import logo from './img/logo.png';
 import plan_icon_1 from './img/plan/plan-1.png';
