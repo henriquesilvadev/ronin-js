@@ -52,11 +52,11 @@ function App() {
                                         <li><a href="blog.html">blog <i className="ti-angle-down"></i></a>
                                           <ul className="submenu">
                                             <li><a href="https://observablehq.com/@roninjs" target="_blank"  rel="noopener noreferrer">Observable</a></li>
-                                            {/* <li><a href="#work">Bushido JS</a></li>
-                                            <li><a href="#team">HENRIQUE SILVA DEV</a></li> */}
+                                            <li><a href="https://medium.com/@roninjs" target="_blank"  rel="noopener noreferrer">Medium</a></li>
+                                            <li><a href="https://dev.to/roninjs" target="_blank"  rel="noopener noreferrer">Dev.to</a></li>
                                           </ul>
                                         </li>
-                                        <li><a href="#contact">Entre em Contato</a></li>
+                                        <li><a href="#contact">Contato</a></li>
                                     </ul>
                                 </nav>
                             </div>
