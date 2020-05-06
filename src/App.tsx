@@ -430,12 +430,6 @@ function App() {
           contato@roninjs.com | +55 62 98584 9729 | <a href="https://t.me/roninjs_channel">t.me/roninjs_channel</a>
         </p>
       </div>
-      <hr />
-      <div className="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-        <h4>
-          HENRIQUE SILVA DEV - MEI / CNPJ 36.349.019/0001-95
-        </h4>
-      </div>
 
       <footer className="footer">
         <div className="footer_top">
