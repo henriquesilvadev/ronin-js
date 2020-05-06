@@ -43,13 +43,19 @@ function App() {
                                         <li><a href="#services">Planos</a></li>
                                         {/* <li><a href="Portfolio.html">Portfolio</a></li> */}
                                         <li><a href="#">Conheça-nos <i className="ti-angle-down"></i></a>
-                                            <ul className="submenu">
-                                                <li><a href="#about">Sobre Nós</a></li>
-                                                <li><a href="#work">Como Trabalhamos</a></li>
-                                                <li><a href="#team">Nosso Time</a></li>
-                                            </ul>
+                                          <ul className="submenu">
+                                            <li><a href="#about">Sobre Nós</a></li>
+                                            <li><a href="#work">Como Trabalhamos</a></li>
+                                            <li><a href="#team">Nosso Time</a></li>
+                                          </ul>
                                         </li>
-                                        <li><a href="blog.html">blog</a></li>
+                                        <li><a href="blog.html">blog <i className="ti-angle-down"></i></a>
+                                          <ul className="submenu">
+                                            <li><a href="https://observablehq.com/@roninjs" target="_blank"  rel="noopener noreferrer">Observable</a></li>
+                                            {/* <li><a href="#work">Bushido JS</a></li>
+                                            <li><a href="#team">HENRIQUE SILVA DEV</a></li> */}
+                                          </ul>
+                                        </li>
                                         <li><a href="#contact">Entre em Contato</a></li>
                                     </ul>
                                 </nav>
@@ -354,46 +360,6 @@ function App() {
                 </div>
               </div>
             </div>
-            {/*<div className="col-lg-3 col-md-6">
-              <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                <div className="team_thumb">
-                  <img src="img/team/3.png" alt="" />
-                  <div className="team_hover">
-                    <div className="hover_inner text-center">
-                      <ul>
-                        <li><a href="#"> <i className="fa fa-facebook"></i> </a></li>
-                        <li><a href="#"> <i className="fa fa-linkedin"></i> </a></li>
-                        <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="team_title text-center">
-                  <h3>Roman Solo</h3>
-                  <p>Wordpress Developer</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-6">
-              <div className="single_team wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s">
-                <div className="team_thumb">
-                  <img src="img/team/4.png" alt="" />
-                  <div className="team_hover">
-                    <div className="hover_inner text-center">
-                      <ul>
-                        <li><a href="#"> <i className="fa fa-facebook"></i> </a></li>
-                        <li><a href="#"> <i className="fa fa-linkedin"></i> </a></li>
-                        <li><a href="#"> <i className="fa fa-google-plus"></i> </a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div className="team_title text-center">
-                  <h3>Yeald Kin</h3>
-                  <p>Software Engineer</p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>
