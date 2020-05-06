@@ -56,6 +56,7 @@ function App() {
                                             <li><a href="https://dev.to/roninjs" target="_blank"  rel="noopener noreferrer">Dev.to</a></li>
                                           </ul>
                                         </li>
+                                        <li><a href="https://spectrum.chat/ronin-js-code-school" target="_blank"  rel="noopener noreferrer">Comunidade</a></li>
                                         <li><a href="#contact">Contato</a></li>
                                     </ul>
                                 </nav>
