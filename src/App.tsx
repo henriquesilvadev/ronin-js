@@ -19,7 +19,6 @@ import plan_icon_3 from './img/plan/plan-3.jpg';
 import henrique_foto from './img/team/yo.png';
 import maria_foto from './img/team/my_cat.png';
 
-
 function App() {
   return (
     <section>
@@ -449,6 +448,29 @@ function App() {
         </div>
       </div>
 
+      <div className="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <h4>Endereço:</h4>
+        <p>
+          RUA F QD 29 LT 06<br />
+          Residencial Garden AP 1001 IPÊ<br />
+          Cidade Jardim CEP 75.080-370 -
+          Anápolis / Goiás
+        </p>
+      </div>
+
+      <div className="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <h4>Contato:</h4>
+        <p style={{ textTransform: 'uppercase' }}>
+          contato@roninjs.com | +55 62 98584 9729 | <a href="https://t.me/roninjs_channel">t.me/roninjs_channel</a>
+        </p>
+      </div>
+      <hr />
+      <div className="container wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <h4>
+          HENRIQUE SILVA DEV - MEI / CNPJ 36.349.019/0001-95
+        </h4>
+      </div>
+
       <footer className="footer">
         <div className="footer_top">
           <div className="container">
@@ -490,11 +512,9 @@ function App() {
             <div className="footer_border"></div>
             <div className="row">
               <div className="col-xl-12">
-              <p className="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
-
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os Direitos Reservados | Desenvolvido com muito <i className="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://henriquesilva.dev" target="_blank">HENRIQUE SILVA DEV</a>
-
-                  </p>
+                <p className="copy_right text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.3s">
+                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os Direitos Reservados | Desenvolvido com muito <i className="fa fa-heart-o" aria-hidden="true"></i> por <a href="https://henriquesilva.dev" target="_blank">HENRIQUE SILVA DEV</a>
+                </p>
               </div>
             </div>
           </div>

@@ -266,14 +266,14 @@ h3 {
 .bradcam_overlay::before {
   position: absolute;
   content: "";
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5db2ff+0,7db9e8+100&1+24,0+96 */
-  background: -moz-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7d1d8f+0,7db9e8+100&1+24,0+96 */
+  background: -moz-linear-gradient(left, #7d1d8f 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(left, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: -webkit-linear-gradient(left, #7d1d8f 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right, #5db2ff 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  background: linear-gradient(to right, #7d1d8f 0%, #65b4f9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5db2ff', endColorstr='#007db9e8',GradientType=1 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d1d8f', endColorstr='#007db9e8',GradientType=1 );
   /* IE6-9 */
   top: 0;
   left: 0;
@@ -409,7 +409,7 @@ h3 {
 
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,7d1d8f+100 */
   background: #7d1d8f;
   color: #fff;
   display: inline-block;
@@ -451,7 +451,7 @@ h3 {
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_btn.scss */
 .boxed-btn4 {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,5db2ff+100 */
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0181f5+0,7d1d8f+100 */
   background: #7d1d8f;
   color: #fff;
   display: inline-block;
@@ -784,12 +784,12 @@ h3 {
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #5DB2FF;
+  color: #7d1d8f;
 }
 
 /* line 32, ../../Arafath/CL/December/233. Startup/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #5DB2FF;
+  color: #7d1d8f;
 }
 
 @media (max-width: 767px) {
@@ -2470,7 +2470,7 @@ h3 {
 
 /* line 28, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content h3 a:hover {
-  color: #5DB2FF;
+  color: #7d1d8f;
 }
 
 /* line 33, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
@@ -2484,7 +2484,7 @@ h3 {
 
 /* line 40, ../../Arafath/CL/December/233. Startup/HTML/scss/_department.scss */
 .our_department_area .single_department .department_content a.learn_more {
-  color: #5DB2FF;
+  color: #7d1d8f;
   font-size: 16px;
 }
 
@@ -3054,7 +3054,7 @@ h3 {
 
 /* line 55, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
 .expert_doctors_area .single_expert:hover .experts_name {
-  background: #5DB2FF;
+  background: #7d1d8f;
 }
 
 /* line 57, ../../Arafath/CL/December/233. Startup/HTML/scss/_experts.scss */
