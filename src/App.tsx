@@ -40,7 +40,7 @@ function App() {
                                 <nav>
                                     <ul id="navigation">
                                         <li><a className="active" href="index.html">Principal</a></li>
-                                        <li><a href="#services">Planos</a></li>
+                                        {/*<li><a href="#services">Planos</a></li>*/}
                                         {/* <li><a href="Portfolio.html">Portfolio</a></li> */}
                                         <li><a href="#">Conheça-nos <i className="ti-angle-down"></i></a>
                                           <ul className="submenu">
@@ -62,11 +62,16 @@ function App() {
                                 </nav>
                             </div>
                         </div>
-                        <div className="col-lg-2 d-none d-lg-block">
-                            <div className="log_chat_area d-flex align-items-end">        />
-                                <a href="#" data-scroll-nav="0" className="say_hi">Cursos On-Line</a>
+                        <div className="col-lg-1 d-none d-lg-block">
+                            <div className="log_chat_area d-flex align-items-end">
+                              <a href="https://cursos.roninjs.com" className="say_hi">Entrar</a>
                             </div>
                         </div>
+                      <div className="col-lg-1 d-none d-lg-block">
+                        <div className="log_chat_area d-flex align-items-end">
+                          <a href="#services" className="say_hi">Matricule-se</a>
+                        </div>
+                      </div>
                         <div className="col-12">
                             <div className="mobile_menu d-block d-lg-none"></div>
                         </div>
